@@ -1,0 +1,65 @@
+---
+---
+$background-color: #f7f7f7;
+$key-color: #000000;
+$color: #707070;
+
+html { font-size: 0 /* To remove gaps. */ }
+body {
+  font-family: 'Lato', sans-serif;
+  color: $color;
+  background-color: darken($background-color, 3%);
+}
+main h1 {
+  margin-top: 90px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  border-left: 20px solid lighten($color, 17%);
+}
+main h2 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+em, i { font-style: italic }
+b, strong { font-weight: bolder }
+a { color: $key-color; text-decoration: none }
+
+header {
+  border-bottom: 1px solid black;
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+main {
+  background-color: $background-color;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+footer {
+  border-top: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+
+.Restrained {
+  max-width: 980px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.HorizontalScroller {
+  padding-left: 40px;
+  padding-right: 40px;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+}
+
+//
+//
+//
+
+.TextSize0 { font-size: 14px; line-height: 17px } // Intended for footnotes, asides, the footer, etc.
+.TextSize1 { font-size: 20px; line-height: 26px } // Intended as a baseline for content.
+.TextSize2 { font-size: 25px; line-height: 30px } // Intended as a sub-heading.
+.TextSize3 { font-size: 33px; line-height: 40px } // Intended as a heading.
+
