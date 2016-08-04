@@ -25,12 +25,13 @@ em, i { font-style: italic; }
 strong, b { font-weight: bolder; }
 a { color: $key-color; text-decoration: none; }
 
-p  { line-height: 24px; font-size: 16px; margin: 24px 24px 0 24px;   .sc { font-size: 14px; text-transform: uppercase; } }
-td { line-height: 24px; font-size: 16px;                        .sc { font-size: 14px; text-transform: uppercase; } }
-li { line-height: 24px; font-size: 16px; margin: 0;             .sc { font-size: 14px; text-transform: uppercase; } }
-h1 { line-height: 24px; font-size: 17px; margin: 72px 0 24px 0; .sc { font-size: 15px; text-transform: uppercase; } }
+p  { line-height: 24px; font-size: 16px; margin: 24px 24px 0 24px; .sc { font-size: 14px; text-transform: uppercase; } }
+td { line-height: 24px; font-size: 16px;                           .sc { font-size: 14px; text-transform: uppercase; } }
+li { line-height: 24px; font-size: 16px; margin: 0;                .sc { font-size: 14px; text-transform: uppercase; } }
+h1 { line-height: 24px; font-size: 17px; margin: 72px 0 24px 0;    .sc { font-size: 15px; text-transform: uppercase; } }
 h2 { line-height: 24px; font-size: 15px; margin: 24px 0 0 0; text-transform: uppercase; font-weight: normal; text-align: center; }
-h3 { line-height: 24px; font-size: 18px; margin: 24px 0 0 0; font-weight: lighter; }
+h3 { line-height: 24px; font-size: 16px; margin: 24px 0 0 24px; font-style: italic; }
+h3 + p { margin-top: 0; }
 
 body > header {
     padding: 48px 0 0 0;
